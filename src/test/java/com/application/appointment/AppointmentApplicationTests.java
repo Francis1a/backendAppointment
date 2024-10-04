@@ -1,10 +1,10 @@
-package com.appointment.system;
+package com.application.appointment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SystemApplicationTests {
+class AppointmentApplicationTests {
 
 	@Test
 	void contextLoads() {

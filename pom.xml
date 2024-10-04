@@ -8,11 +8,11 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.appointment</groupId>
-	<artifactId>system</artifactId>
+	<groupId>com.application</groupId>
+	<artifactId>appointment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>system</name>
-	<description>The Appointment System enables users to schedule, manage, and track appointments efficiently. With features like appointment creation, viewing, real-time updates, and approval management, it offers a streamlined experience. Its user-friendly interface and backend integration ensure smooth performance and reliable appointment handling.</description>
+	<name>appointment</name>
+	<description>Backend of the application</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -48,6 +48,28 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.11.5</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.application</groupId>
+			<artifactId>appointment</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
